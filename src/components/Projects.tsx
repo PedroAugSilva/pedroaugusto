@@ -1,6 +1,6 @@
 import * as Modal from "@radix-ui/react-dialog";
 import { CaretCircleLeft } from "phosphor-react";
-import ProjetctCard from "./ProjetctCard";
+import ProjetctCard from "./ProjectCard";
 import projects from "../services/projects";
 import { useEffect, useState, useRef } from "react";
 
