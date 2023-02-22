@@ -7,7 +7,7 @@ interface Props {
   link: string;
 }
 
-const ProjetctCard = ({ image, link, name, technologies }: Props) => {
+const ProjectCard = ({ image, link, name, technologies }: Props) => {
   return (
     <a href={link}>
       <div className="group  bg-black border border-slate-500 rounded-3xl p-8  items-start flex flex-col transition-all hover:scale-105 cursor-pointer duration-300">
@@ -37,4 +37,4 @@ const ProjetctCard = ({ image, link, name, technologies }: Props) => {
   );
 };
 
-export default ProjetctCard;
+export default ProjectCard;
